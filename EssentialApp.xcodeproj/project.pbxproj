@@ -13,11 +13,11 @@
 		DE80A73F29E7590900C842EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE80A73D29E7590900C842EE /* Main.storyboard */; };
 		DE80A74129E7590A00C842EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE80A74029E7590A00C842EE /* Assets.xcassets */; };
 		DE80A74429E7590A00C842EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE80A74229E7590A00C842EE /* LaunchScreen.storyboard */; };
-		DE80A74F29E7590A00C842EE /* EssentialAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE80A74E29E7590A00C842EE /* EssentialAppTests.swift */; };
 		DE80A76A29E75A4A00C842EE /* EssentialFeed_KaiLearning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE80A76829E75A4A00C842EE /* EssentialFeed_KaiLearning.framework */; };
 		DE80A76B29E75A4A00C842EE /* EssentialFeed_KaiLearning.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DE80A76829E75A4A00C842EE /* EssentialFeed_KaiLearning.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DE80A76C29E75A4A00C842EE /* EssentialFeediOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE80A76929E75A4A00C842EE /* EssentialFeediOS.framework */; };
 		DE80A76D29E75A4A00C842EE /* EssentialFeediOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DE80A76929E75A4A00C842EE /* EssentialFeediOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DE80A77029E769CE00C842EE /* FeedLoaderWithFallbackCompositeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE80A76F29E769CE00C842EE /* FeedLoaderWithFallbackCompositeTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,9 +55,9 @@
 		DE80A74329E7590A00C842EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE80A74529E7590A00C842EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE80A74A29E7590A00C842EE /* EssentialAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE80A74E29E7590A00C842EE /* EssentialAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAppTests.swift; sourceTree = "<group>"; };
 		DE80A76829E75A4A00C842EE /* EssentialFeed_KaiLearning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeed_KaiLearning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE80A76929E75A4A00C842EE /* EssentialFeediOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeediOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE80A76F29E769CE00C842EE /* FeedLoaderWithFallbackCompositeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderWithFallbackCompositeTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +116,7 @@
 		DE80A74D29E7590A00C842EE /* EssentialAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				DE80A74E29E7590A00C842EE /* EssentialAppTests.swift */,
+				DE80A76F29E769CE00C842EE /* FeedLoaderWithFallbackCompositeTests.swift */,
 			);
 			path = EssentialAppTests;
 			sourceTree = "<group>";
@@ -184,6 +184,7 @@
 					};
 					DE80A74929E7590A00C842EE = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 						TestTargetID = DE80A73329E7590900C842EE;
 					};
 				};
@@ -242,7 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE80A74F29E7590A00C842EE /* EssentialAppTests.swift in Sources */,
+				DE80A77029E769CE00C842EE /* FeedLoaderWithFallbackCompositeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,15 +458,22 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TFAADZ4278;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = app.kai7.EssentialAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EssentialApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EssentialApp";
@@ -477,11 +485,17 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TFAADZ4278;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = app.kai7.EssentialAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
