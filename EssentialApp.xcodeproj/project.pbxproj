@@ -24,6 +24,7 @@
 		DE80A77A29E8F58600C842EE /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE80A77929E8F58600C842EE /* XCTestCase+MemoryLeakTracking.swift */; };
 		DE80A77C29E8F5EB00C842EE /* SharedTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE80A77B29E8F5EB00C842EE /* SharedTestHelpers.swift */; };
 		DE80A77E29E924F200C842EE /* FeedLoaderCacheDecoratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE80A77D29E924F200C842EE /* FeedLoaderCacheDecoratorTests.swift */; };
+		DE80A78029E927F600C842EE /* FeedLoaderStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE80A77F29E927F600C842EE /* FeedLoaderStub.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		DE80A77929E8F58600C842EE /* XCTestCase+MemoryLeakTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+MemoryLeakTracking.swift"; sourceTree = "<group>"; };
 		DE80A77B29E8F5EB00C842EE /* SharedTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTestHelpers.swift; sourceTree = "<group>"; };
 		DE80A77D29E924F200C842EE /* FeedLoaderCacheDecoratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderCacheDecoratorTests.swift; sourceTree = "<group>"; };
+		DE80A77F29E927F600C842EE /* FeedLoaderStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderStub.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 			children = (
 				DE80A77929E8F58600C842EE /* XCTestCase+MemoryLeakTracking.swift */,
 				DE80A77B29E8F5EB00C842EE /* SharedTestHelpers.swift */,
+				DE80A77F29E927F600C842EE /* FeedLoaderStub.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				DE80A77529E8BD3900C842EE /* FeedImageDataLoaderWithFallbackCompositeTests.swift in Sources */,
 				DE80A77029E769CE00C842EE /* FeedLoaderWithFallbackCompositeTests.swift in Sources */,
 				DE80A77E29E924F200C842EE /* FeedLoaderCacheDecoratorTests.swift in Sources */,
+				DE80A78029E927F600C842EE /* FeedLoaderStub.swift in Sources */,
 				DE80A77A29E8F58600C842EE /* XCTestCase+MemoryLeakTracking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
