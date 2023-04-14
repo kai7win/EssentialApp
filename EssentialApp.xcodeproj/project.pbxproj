@@ -26,6 +26,7 @@
 		DE80A77E29E924F200C842EE /* FeedLoaderCacheDecoratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE80A77D29E924F200C842EE /* FeedLoaderCacheDecoratorTests.swift */; };
 		DE80A78029E927F600C842EE /* FeedLoaderStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE80A77F29E927F600C842EE /* FeedLoaderStub.swift */; };
 		DE80A78229E92A1D00C842EE /* XCTestCase+FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE80A78129E92A1D00C842EE /* XCTestCase+FeedLoader.swift */; };
+		DE80A78629E9332400C842EE /* FeedLoaderCacheDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE80A78529E9332400C842EE /* FeedLoaderCacheDecorator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		DE80A77D29E924F200C842EE /* FeedLoaderCacheDecoratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderCacheDecoratorTests.swift; sourceTree = "<group>"; };
 		DE80A77F29E927F600C842EE /* FeedLoaderStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderStub.swift; sourceTree = "<group>"; };
 		DE80A78129E92A1D00C842EE /* XCTestCase+FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FeedLoader.swift"; sourceTree = "<group>"; };
+		DE80A78529E9332400C842EE /* FeedLoaderCacheDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderCacheDecorator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				DE80A73B29E7590900C842EE /* ViewController.swift */,
 				DE80A77129E8AB6C00C842EE /* FeedLoaderWithFallbackComposite.swift */,
 				DE80A77629E8F4EB00C842EE /* FeedImageDataLoaderWithFallbackComposite.swift */,
+				DE80A78529E9332400C842EE /* FeedLoaderCacheDecorator.swift */,
 				DE80A73D29E7590900C842EE /* Main.storyboard */,
 				DE80A74029E7590A00C842EE /* Assets.xcassets */,
 				DE80A74229E7590A00C842EE /* LaunchScreen.storyboard */,
@@ -268,6 +271,7 @@
 				DE80A73C29E7590900C842EE /* ViewController.swift in Sources */,
 				DE80A73829E7590900C842EE /* AppDelegate.swift in Sources */,
 				DE80A77229E8AB6C00C842EE /* FeedLoaderWithFallbackComposite.swift in Sources */,
+				DE80A78629E9332400C842EE /* FeedLoaderCacheDecorator.swift in Sources */,
 				DE80A73A29E7590900C842EE /* SceneDelegate.swift in Sources */,
 				DE80A77729E8F4EB00C842EE /* FeedImageDataLoaderWithFallbackComposite.swift in Sources */,
 			);
