@@ -30,6 +30,7 @@
 		DE80A78829E933FA00C842EE /* FeedImageDataLoaderCacheDecoratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE80A78729E933FA00C842EE /* FeedImageDataLoaderCacheDecoratorTests.swift */; };
 		DE80A78A29E9366E00C842EE /* FeedImageDataLoaderSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE80A78929E9366E00C842EE /* FeedImageDataLoaderSpy.swift */; };
 		DE80A78C29E9378E00C842EE /* XCTestCase+FeedImageDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE80A78B29E9378E00C842EE /* XCTestCase+FeedImageDataLoader.swift */; };
+		DE80A79029E943E200C842EE /* FeedImageDataLoaderCacheDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE80A78F29E943E200C842EE /* FeedImageDataLoaderCacheDecorator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		DE80A78729E933FA00C842EE /* FeedImageDataLoaderCacheDecoratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderCacheDecoratorTests.swift; sourceTree = "<group>"; };
 		DE80A78929E9366E00C842EE /* FeedImageDataLoaderSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderSpy.swift; sourceTree = "<group>"; };
 		DE80A78B29E9378E00C842EE /* XCTestCase+FeedImageDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FeedImageDataLoader.swift"; sourceTree = "<group>"; };
+		DE80A78F29E943E200C842EE /* FeedImageDataLoaderCacheDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderCacheDecorator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				DE80A77129E8AB6C00C842EE /* FeedLoaderWithFallbackComposite.swift */,
 				DE80A77629E8F4EB00C842EE /* FeedImageDataLoaderWithFallbackComposite.swift */,
 				DE80A78529E9332400C842EE /* FeedLoaderCacheDecorator.swift */,
+				DE80A78F29E943E200C842EE /* FeedImageDataLoaderCacheDecorator.swift */,
 				DE80A73D29E7590900C842EE /* Main.storyboard */,
 				DE80A74029E7590A00C842EE /* Assets.xcassets */,
 				DE80A74229E7590A00C842EE /* LaunchScreen.storyboard */,
@@ -283,6 +286,7 @@
 				DE80A78629E9332400C842EE /* FeedLoaderCacheDecorator.swift in Sources */,
 				DE80A73A29E7590900C842EE /* SceneDelegate.swift in Sources */,
 				DE80A77729E8F4EB00C842EE /* FeedImageDataLoaderWithFallbackComposite.swift in Sources */,
+				DE80A79029E943E200C842EE /* FeedImageDataLoaderCacheDecorator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
