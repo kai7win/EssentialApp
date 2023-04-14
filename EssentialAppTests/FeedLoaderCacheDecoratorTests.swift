@@ -8,7 +8,6 @@
 import XCTest
 import EssentialFeed_KaiLearning
 
-
 final class FeedLoaderCacheDecorator: FeedLoader{
     private let decoratee: FeedLoader
     private let cache: FeedCache
