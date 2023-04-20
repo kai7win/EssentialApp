@@ -39,11 +39,17 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        guard let _ = (scene as? UIWindowScene) else { return }
+
+        let window = UIWindow()
+        window.windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene
+        self.window = window
+        
         configureWindow()
     }
     
     func configureWindow(){
+        
+        
         let remoteURL = URL(string: "https://ile-api.essentialdeveloper.com/essential-feed/v1/feed")!
         
        
@@ -66,6 +72,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                     fallback: FeedImageDataLoaderCacheDecorator(
                         decoratee: remoteImageLoader,
                         cache: localImageLoader))))
+        
+        window?.makeKeyAndVisible()
         
     }
 
