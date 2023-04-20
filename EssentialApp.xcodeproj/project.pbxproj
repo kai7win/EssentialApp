@@ -52,6 +52,8 @@
 		DEE5EAC729EE75F7000C9A21 /* HTTPClientStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE5EAC629EE75F7000C9A21 /* HTTPClientStub.swift */; };
 		DEE5EAC929EE7646000C9A21 /* InMemoryFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE5EAC829EE7646000C9A21 /* InMemoryFeedStore.swift */; };
 		DEE5EAD629F0DA7E000C9A21 /* UIView+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE5EAD529F0DA7E000C9A21 /* UIView+TestHelpers.swift */; };
+		DEE5EB0729F0F0BF000C9A21 /* EssentialFeedAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE5EB0629F0F0BF000C9A21 /* EssentialFeedAPI.framework */; };
+		DEE5EB0829F0F0BF000C9A21 /* EssentialFeedAPI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DEE5EB0629F0F0BF000C9A21 /* EssentialFeedAPI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				DEE5EB0829F0F0BF000C9A21 /* EssentialFeedAPI.framework in Embed Frameworks */,
 				DE80A76B29E75A4A00C842EE /* EssentialFeed_KaiLearning.framework in Embed Frameworks */,
 				DE80A76D29E75A4A00C842EE /* EssentialFeediOS.framework in Embed Frameworks */,
 			);
@@ -126,6 +129,7 @@
 		DEE5EAC629EE75F7000C9A21 /* HTTPClientStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientStub.swift; sourceTree = "<group>"; };
 		DEE5EAC829EE7646000C9A21 /* InMemoryFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMemoryFeedStore.swift; sourceTree = "<group>"; };
 		DEE5EAD529F0DA7E000C9A21 /* UIView+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+TestHelpers.swift"; sourceTree = "<group>"; };
+		DEE5EB0629F0F0BF000C9A21 /* EssentialFeedAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeedAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEE5EB0729F0F0BF000C9A21 /* EssentialFeedAPI.framework in Frameworks */,
 				DE80A76A29E75A4A00C842EE /* EssentialFeed_KaiLearning.framework in Frameworks */,
 				DE80A76C29E75A4A00C842EE /* EssentialFeediOS.framework in Frameworks */,
 			);
@@ -209,6 +214,7 @@
 		DE80A76729E75A4A00C842EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DEE5EB0629F0F0BF000C9A21 /* EssentialFeedAPI.framework */,
 				DE80A76829E75A4A00C842EE /* EssentialFeed_KaiLearning.framework */,
 				DE80A76929E75A4A00C842EE /* EssentialFeediOS.framework */,
 			);
