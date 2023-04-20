@@ -40,6 +40,7 @@
 		DEE5EAD629F0DA7E000C9A21 /* UIView+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE5EAD529F0DA7E000C9A21 /* UIView+TestHelpers.swift */; };
 		DEE5EB0729F0F0BF000C9A21 /* EssentialFeedAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE5EB0629F0F0BF000C9A21 /* EssentialFeedAPI.framework */; };
 		DEE5EB0829F0F0BF000C9A21 /* EssentialFeedAPI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DEE5EB0629F0F0BF000C9A21 /* EssentialFeedAPI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DEE5EB0B29F14FF1000C9A21 /* CombineHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE5EB0A29F14FF1000C9A21 /* CombineHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +103,7 @@
 		DEE5EAC829EE7646000C9A21 /* InMemoryFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMemoryFeedStore.swift; sourceTree = "<group>"; };
 		DEE5EAD529F0DA7E000C9A21 /* UIView+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+TestHelpers.swift"; sourceTree = "<group>"; };
 		DEE5EB0629F0F0BF000C9A21 /* EssentialFeedAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeedAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE5EB0A29F14FF1000C9A21 /* CombineHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 			children = (
 				DE80A73729E7590900C842EE /* AppDelegate.swift */,
 				DE80A73929E7590900C842EE /* SceneDelegate.swift */,
+				DEE5EB0A29F14FF1000C9A21 /* CombineHelpers.swift */,
 				DEE5EAA729EDF71F000C9A21 /* FeedUIComposer.swift .swift */,
 				DEE5EAA529EDF71F000C9A21 /* FeedViewAdapter.swift */,
 				DEE5EAA629EDF71F000C9A21 /* FeedLoaderPresentationAdapter.swift */,
@@ -308,6 +311,7 @@
 			files = (
 				DEE5EAAC29EDF720000C9A21 /* FeedLoaderPresentationAdapter.swift in Sources */,
 				DEE5EAAE29EDF720000C9A21 /* FeedImageDataLoaderPresentationAdapter.swift in Sources */,
+				DEE5EB0B29F14FF1000C9A21 /* CombineHelpers.swift in Sources */,
 				DE80A73C29E7590900C842EE /* ViewController.swift in Sources */,
 				DE80A73829E7590900C842EE /* AppDelegate.swift in Sources */,
 				DEE5EAAB29EDF720000C9A21 /* FeedViewAdapter.swift in Sources */,
