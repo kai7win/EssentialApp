@@ -51,6 +51,7 @@
 		DEE5EAC529EE007C000C9A21 /* FeedAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE5EAC429EE007C000C9A21 /* FeedAcceptanceTests.swift */; };
 		DEE5EAC729EE75F7000C9A21 /* HTTPClientStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE5EAC629EE75F7000C9A21 /* HTTPClientStub.swift */; };
 		DEE5EAC929EE7646000C9A21 /* InMemoryFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE5EAC829EE7646000C9A21 /* InMemoryFeedStore.swift */; };
+		DEE5EAD629F0DA7E000C9A21 /* UIView+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE5EAD529F0DA7E000C9A21 /* UIView+TestHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +125,7 @@
 		DEE5EAC429EE007C000C9A21 /* FeedAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedAcceptanceTests.swift; sourceTree = "<group>"; };
 		DEE5EAC629EE75F7000C9A21 /* HTTPClientStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientStub.swift; sourceTree = "<group>"; };
 		DEE5EAC829EE7646000C9A21 /* InMemoryFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMemoryFeedStore.swift; sourceTree = "<group>"; };
+		DEE5EAD529F0DA7E000C9A21 /* UIView+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+TestHelpers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +221,7 @@
 				DEE5EABC29EDF831000C9A21 /* FeedViewController+TestHelpers.swift */,
 				DEE5EABD29EDF831000C9A21 /* FeedUIIntegrationTests+LoaderSpy.swift */,
 				DEE5EABB29EDF831000C9A21 /* FeedUIIntegrationTests+Assertions.swift */,
+				DEE5EAD529F0DA7E000C9A21 /* UIView+TestHelpers.swift */,
 				DEE5EABA29EDF831000C9A21 /* FeedUIIntegrationTests+Localization.swift */,
 				DEE5EAB129EDF821000C9A21 /* FeedImageCell+TestHelpers.swift */,
 				DEE5EAB229EDF821000C9A21 /* UIImage+TestHelpers.swift */,
@@ -378,6 +381,7 @@
 				DEE5EAB929EDF822000C9A21 /* UIRefreshControl+TestHelpers.swift .swift in Sources */,
 				DEE5EAC729EE75F7000C9A21 /* HTTPClientStub.swift in Sources */,
 				DEE5EAB829EDF822000C9A21 /* UIButton+TestHelpers.swift in Sources */,
+				DEE5EAD629F0DA7E000C9A21 /* UIView+TestHelpers.swift in Sources */,
 				DEE5EAC029EDF831000C9A21 /* FeedViewController+TestHelpers.swift in Sources */,
 				DE80A77E29E924F200C842EE /* FeedLoaderCacheDecoratorTests.swift in Sources */,
 				DEE5EAC529EE007C000C9A21 /* FeedAcceptanceTests.swift in Sources */,
