@@ -1,5 +1,5 @@
 //
-//  FeedLoaderPresentationAdapter.swift
+//  LoadResourcePresentationAdapter.swift
 //  EssentialFeediOS
 //
 //  Created by Kai Chi Tsao on 2023/3/28.
@@ -41,5 +41,16 @@ final class LoadResourcePresentationAdapter<Resource, View: ResourceView> {
 extension LoadResourcePresentationAdapter: FeedViewControllerDelegate {
     func didRequestFeedRefresh() {
         loadResource()
+    }
+}
+
+extension LoadResourcePresentationAdapter: FeedImageCellControllerDelegate {
+    func didRequestImage() {
+        loadResource()
+    }
+    
+    func didCancelImageRequest() {
+        cancellable?.cancel()
+        cancellable = nil
     }
 }

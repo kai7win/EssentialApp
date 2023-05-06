@@ -46,3 +46,4 @@ final class FeedImageDataLoaderPresentationAdapter<View: FeedImageView, Image>: 
         cancellable?.cancel()
     }
 }
+

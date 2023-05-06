@@ -21,7 +21,7 @@
 		DEE5EAA329EB674C000C9A21 /* SceneDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE5EAA229EB674C000C9A21 /* SceneDelegateTests.swift */; };
 		DEE5EAAA29EDF720000C9A21 /* WeakRefVirtualProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE5EAA429EDF71F000C9A21 /* WeakRefVirtualProxy.swift */; };
 		DEE5EAAB29EDF720000C9A21 /* FeedViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE5EAA529EDF71F000C9A21 /* FeedViewAdapter.swift */; };
-		DEE5EAAC29EDF720000C9A21 /* FeedLoaderPresentationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE5EAA629EDF71F000C9A21 /* FeedLoaderPresentationAdapter.swift */; };
+		DEE5EAAC29EDF720000C9A21 /* LoadResourcePresentationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE5EAA629EDF71F000C9A21 /* LoadResourcePresentationAdapter.swift */; };
 		DEE5EAAD29EDF720000C9A21 /* FeedUIComposer.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE5EAA729EDF71F000C9A21 /* FeedUIComposer.swift .swift */; };
 		DEE5EAAE29EDF720000C9A21 /* FeedImageDataLoaderPresentationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE5EAA829EDF71F000C9A21 /* FeedImageDataLoaderPresentationAdapter.swift */; };
 		DEE5EAB529EDF822000C9A21 /* UIControl+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE5EAB029EDF821000C9A21 /* UIControl+TestHelpers.swift */; };
@@ -85,7 +85,7 @@
 		DEE5EAA229EB674C000C9A21 /* SceneDelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegateTests.swift; sourceTree = "<group>"; };
 		DEE5EAA429EDF71F000C9A21 /* WeakRefVirtualProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeakRefVirtualProxy.swift; sourceTree = "<group>"; };
 		DEE5EAA529EDF71F000C9A21 /* FeedViewAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewAdapter.swift; sourceTree = "<group>"; };
-		DEE5EAA629EDF71F000C9A21 /* FeedLoaderPresentationAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedLoaderPresentationAdapter.swift; sourceTree = "<group>"; };
+		DEE5EAA629EDF71F000C9A21 /* LoadResourcePresentationAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadResourcePresentationAdapter.swift; sourceTree = "<group>"; };
 		DEE5EAA729EDF71F000C9A21 /* FeedUIComposer.swift .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FeedUIComposer.swift .swift"; sourceTree = "<group>"; };
 		DEE5EAA829EDF71F000C9A21 /* FeedImageDataLoaderPresentationAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderPresentationAdapter.swift; sourceTree = "<group>"; };
 		DEE5EAB029EDF821000C9A21 /* UIControl+TestHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIControl+TestHelpers.swift"; sourceTree = "<group>"; };
@@ -154,7 +154,7 @@
 				DEE5EB0A29F14FF1000C9A21 /* CombineHelpers.swift */,
 				DEE5EAA729EDF71F000C9A21 /* FeedUIComposer.swift .swift */,
 				DEE5EAA529EDF71F000C9A21 /* FeedViewAdapter.swift */,
-				DEE5EAA629EDF71F000C9A21 /* FeedLoaderPresentationAdapter.swift */,
+				DEE5EAA629EDF71F000C9A21 /* LoadResourcePresentationAdapter.swift */,
 				DEE5EAA829EDF71F000C9A21 /* FeedImageDataLoaderPresentationAdapter.swift */,
 				DEE5EAA429EDF71F000C9A21 /* WeakRefVirtualProxy.swift */,
 				DE80A73B29E7590900C842EE /* ViewController.swift */,
@@ -309,7 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEE5EAAC29EDF720000C9A21 /* FeedLoaderPresentationAdapter.swift in Sources */,
+				DEE5EAAC29EDF720000C9A21 /* LoadResourcePresentationAdapter.swift in Sources */,
 				DEE5EAAE29EDF720000C9A21 /* FeedImageDataLoaderPresentationAdapter.swift in Sources */,
 				DEE5EB0B29F14FF1000C9A21 /* CombineHelpers.swift in Sources */,
 				DE80A73C29E7590900C842EE /* ViewController.swift in Sources */,
