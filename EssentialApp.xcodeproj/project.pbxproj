@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DE25803B2A19F75900CF73AD /* CommentsUIComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25803A2A19F75900CF73AD /* CommentsUIComposer.swift */; };
 		DE25803D2A19F79200CF73AD /* CommentsUIIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25803C2A19F79200CF73AD /* CommentsUIIntegrationTests.swift */; };
+		DE25805B2A1B5FAB00CF73AD /* NullStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25805A2A1B5FAB00CF73AD /* NullStore.swift */; };
 		DE80A73829E7590900C842EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE80A73729E7590900C842EE /* AppDelegate.swift */; };
 		DE80A73A29E7590900C842EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE80A73929E7590900C842EE /* SceneDelegate.swift */; };
 		DE80A73C29E7590900C842EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE80A73B29E7590900C842EE /* ViewController.swift */; };
@@ -72,6 +73,7 @@
 /* Begin PBXFileReference section */
 		DE25803A2A19F75900CF73AD /* CommentsUIComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsUIComposer.swift; sourceTree = "<group>"; };
 		DE25803C2A19F79200CF73AD /* CommentsUIIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsUIIntegrationTests.swift; sourceTree = "<group>"; };
+		DE25805A2A1B5FAB00CF73AD /* NullStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NullStore.swift; sourceTree = "<group>"; };
 		DE80A73429E7590900C842EE /* EssentialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssentialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE80A73729E7590900C842EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE80A73929E7590900C842EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 				DE80A74029E7590A00C842EE /* Assets.xcassets */,
 				DE80A74229E7590A00C842EE /* LaunchScreen.storyboard */,
 				DE80A74529E7590A00C842EE /* Info.plist */,
+				DE25805A2A1B5FAB00CF73AD /* NullStore.swift */,
 			);
 			path = EssentialApp;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 			files = (
 				DEE5EAAC29EDF720000C9A21 /* LoadResourcePresentationAdapter.swift in Sources */,
 				DEE5EB0B29F14FF1000C9A21 /* CombineHelpers.swift in Sources */,
+				DE25805B2A1B5FAB00CF73AD /* NullStore.swift in Sources */,
 				DE80A73C29E7590900C842EE /* ViewController.swift in Sources */,
 				DE80A73829E7590900C842EE /* AppDelegate.swift in Sources */,
 				DE25803B2A19F75900CF73AD /* CommentsUIComposer.swift in Sources */,
