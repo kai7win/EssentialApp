@@ -38,6 +38,8 @@ extension FeedUIIntegrationTests{
             feedRequests[index].send(Paginated(items: feed, loadMorePublisher: { [weak self] in
                 self?.loadMorePublisher() ?? Empty().eraseToAnyPublisher()
             }))
+            
+            feedRequests[index].send(completion: .finished)
         }
         
         // MARK: - LoadMoreFeedLoader
